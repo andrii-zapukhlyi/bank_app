@@ -1,0 +1,20 @@
+\babel@toc {polish}{}\relax 
+\contentsline {section}{\numberline {1}Wprowadzenie}{2}{}%
+\contentsline {section}{\numberline {2}Funkcje aplikacji i interfejs}{2}{}%
+\contentsline {section}{\numberline {3}Dodawanie konta bankowego}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Kod źródłowy}{4}{}%
+\contentsline {section}{\numberline {4}Depozyt środków na konto}{6}{}%
+\contentsline {subsection}{\numberline {4.1}Kod źródłowy}{7}{}%
+\contentsline {section}{\numberline {5}Wycofanie środków z konta}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Kod źródłowy}{9}{}%
+\contentsline {section}{\numberline {6}Sprawdzenie salda konta}{10}{}%
+\contentsline {subsection}{\numberline {6.1}Kod źródłowy}{11}{}%
+\contentsline {section}{\numberline {7}Zlecenie przelewu między kontami}{12}{}%
+\contentsline {subsection}{\numberline {7.1}Kod źródłowy}{12}{}%
+\contentsline {section}{\numberline {8}Wyświetlenie listy kont}{14}{}%
+\contentsline {subsection}{\numberline {8.1}Kod źródłowy}{15}{}%
+\contentsline {section}{\numberline {9}Modyfikacja danych}{15}{}%
+\contentsline {subsection}{\numberline {9.1}Kod źródłowy}{16}{}%
+\contentsline {section}{\numberline {10}Usuwanie konta bankowego}{17}{}%
+\contentsline {subsection}{\numberline {10.1}Kod źródłowy}{18}{}%
+\contentsline {section}{\numberline {11}Podział pracy}{19}{}%

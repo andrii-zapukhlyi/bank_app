@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="PROJDialog">
+		<title>Aplikacja bankowa</title>
+		<centered>1</centered>
+		<id_arg>0</id_arg>
+		<handler function="OnInit" entry="EVT_INIT_DIALOG" />
+		<object class="wxGridBagSizer" variable="GridBagSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+					<size>200,161</size>
+				</object>
+				<colspan>3</colspan>
+				<col>0</col>
+				<row>0</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+					<label>NOWY UŻYTKOWNIK</label>
+					<size>230,35</size>
+					<handler function="OnButton1Click" entry="EVT_BUTTON" />
+				</object>
+				<col>0</col>
+				<row>1</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+					<label>DEPOZYT</label>
+					<size>230,35</size>
+					<handler function="OnButton2Click" entry="EVT_BUTTON" />
+				</object>
+				<col>1</col>
+				<row>1</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+					<label>WYCOFAJ ŚRODKI</label>
+					<size>230,35</size>
+					<handler function="OnButton3Click" entry="EVT_BUTTON" />
+				</object>
+				<col>0</col>
+				<row>2</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+					<label>ZLEĆ PRZELEW</label>
+					<size>230,35</size>
+					<handler function="OnButton4Click" entry="EVT_BUTTON" />
+				</object>
+				<col>1</col>
+				<row>2</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON5" variable="Button5" member="yes">
+					<label>SALDO KONTA</label>
+					<size>230,35</size>
+					<handler function="OnButton5Click" entry="EVT_BUTTON" />
+				</object>
+				<col>0</col>
+				<row>3</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON6" variable="Button6" member="yes">
+					<label>LISTA KONT</label>
+					<size>230,35</size>
+					<handler function="OnButton6Click" entry="EVT_BUTTON" />
+				</object>
+				<col>1</col>
+				<row>3</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON7" variable="Button7" member="yes">
+					<label>MODYFIKUJ INFORMACJE</label>
+					<size>230,35</size>
+					<handler function="OnButton7Click" entry="EVT_BUTTON" />
+				</object>
+				<col>0</col>
+				<row>4</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_BUTTON8" variable="Button8" member="yes">
+					<label>USUŃ KONTO</label>
+					<size>230,35</size>
+					<handler function="OnButton8Click" entry="EVT_BUTTON" />
+				</object>
+				<col>1</col>
+				<row>4</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

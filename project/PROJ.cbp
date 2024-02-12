@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PROJ" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/PROJ" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="$(#wx)/lib/gcc_lib/mswu" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="$(#wx)/lib/gcc_lib/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libwxmsw32u.a" />
+					<Add library="libwxpng.a" />
+					<Add library="libwxjpeg.a" />
+					<Add library="libwxtiff.a" />
+					<Add library="libwxzlib.a" />
+					<Add directory="$(#wx)/lib/gcc_lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add directory="$(#wx)/include" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="$(#wx)/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-static" />
+			<Add option="-mthreads" />
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libshell32.a" />
+			<Add library="libole32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomctl32.a" />
+			<Add library="libwsock32.a" />
+			<Add library="libodbc32.a" />
+			<Add library="libshlwapi.a" />
+			<Add library="libversion.a" />
+			<Add library="liboleacc.a" />
+			<Add library="libuxtheme.a" />
+		</Linker>
+		<Unit filename="PROJApp.cpp" />
+		<Unit filename="PROJApp.h" />
+		<Unit filename="PROJMain.cpp" />
+		<Unit filename="PROJMain.h" />
+		<Unit filename="image_data.h" />
+		<Unit filename="include/packages.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxDepozyt.cpp" />
+		<Unit filename="wxDepozyt.h" />
+		<Unit filename="wxLista.cpp" />
+		<Unit filename="wxLista.h" />
+		<Unit filename="wxModyfikuj.cpp" />
+		<Unit filename="wxModyfikuj.h" />
+		<Unit filename="wxNewUser.cpp" />
+		<Unit filename="wxNewUser.h" />
+		<Unit filename="wxPrzelew.cpp" />
+		<Unit filename="wxPrzelew.h" />
+		<Unit filename="wxSaldo.cpp" />
+		<Unit filename="wxSaldo.h" />
+		<Unit filename="wxUsun.cpp" />
+		<Unit filename="wxUsun.h" />
+		<Unit filename="wxWycofaj.cpp" />
+		<Unit filename="wxWycofaj.h" />
+		<Unit filename="wxsmith/PROJdialog.wxs" />
+		<Unit filename="wxsmith/wxDepozyt.wxs" />
+		<Unit filename="wxsmith/wxLista.wxs" />
+		<Unit filename="wxsmith/wxModyfikuj.wxs" />
+		<Unit filename="wxsmith/wxNewUser.wxs" />
+		<Unit filename="wxsmith/wxPrzelew.wxs" />
+		<Unit filename="wxsmith/wxSaldo.wxs" />
+		<Unit filename="wxsmith/wxUsun.wxs" />
+		<Unit filename="wxsmith/wxWycofaj.wxs" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="PROJApp.cpp" main="PROJDialog" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxDialog wxs="wxsmith/PROJdialog.wxs" src="PROJMain.cpp" hdr="PROJMain.h" fwddecl="0" i18n="1" name="PROJDialog" language="CPP" />
+					<wxDialog wxs="wxsmith/wxNewUser.wxs" src="wxNewUser.cpp" hdr="wxNewUser.h" fwddecl="0" i18n="1" name="wxNewUser" language="CPP" />
+					<wxDialog wxs="wxsmith/wxDepozyt.wxs" src="wxDepozyt.cpp" hdr="wxDepozyt.h" fwddecl="0" i18n="1" name="wxDepozyt" language="CPP" />
+					<wxDialog wxs="wxsmith/wxWycofaj.wxs" src="wxWycofaj.cpp" hdr="wxWycofaj.h" fwddecl="0" i18n="1" name="wxWycofaj" language="CPP" />
+					<wxDialog wxs="wxsmith/wxPrzelew.wxs" src="wxPrzelew.cpp" hdr="wxPrzelew.h" fwddecl="0" i18n="1" name="wxPrzelew" language="CPP" />
+					<wxDialog wxs="wxsmith/wxSaldo.wxs" src="wxSaldo.cpp" hdr="wxSaldo.h" fwddecl="0" i18n="1" name="wxSaldo" language="CPP" />
+					<wxDialog wxs="wxsmith/wxModyfikuj.wxs" src="wxModyfikuj.cpp" hdr="wxModyfikuj.h" fwddecl="0" i18n="1" name="wxModyfikuj" language="CPP" />
+					<wxDialog wxs="wxsmith/wxUsun.wxs" src="wxUsun.cpp" hdr="wxUsun.h" fwddecl="0" i18n="1" name="wxUsun" language="CPP" />
+					<wxDialog wxs="wxsmith/wxLista.wxs" src="wxLista.cpp" hdr="wxLista.h" fwddecl="0" i18n="1" name="wxLista" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
